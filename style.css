@@ -1,0 +1,14 @@
+/* 
+    CSS é somente para criar regras de estilo para elementos
+    Classe: ".header"
+    ID: "#header" (só pode ser usado 1 vez na pagina)
+*/
+
+#title, .subtitle, .post_title{
+    color: blue;
+}  
+
+.post_title{
+    font: italic;
+    font-size: 16px;
+}
