@@ -3,12 +3,71 @@
     Classe: ".header"
     ID: "#header" (só pode ser usado 1 vez na pagina)
 */
+/* 
+    O CSS trata os elementos como uma caixa (box model)
+    margin: espaçamentos entre elementos
+    border: circunda o padding e conteudo (largura e cor)
+    padding: espaço entre as bordas e conteudo
+    content: conteudo (texto, imagem ou outros)
+*/
 
+/* 
+    width: altura
+    height: largura
+*/
+
+body{
+    background: #f7f7f7;
+    align: justify;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+}
 #title, .subtitle, .post_title{
-    color: blue;
-}  
+    color: black;
+} 
+
+#title{
+    font: 40px;
+    text-transform: uppercase;
+}
 
 .post_title{
     font: italic;
     font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.post{
+    background: white;
+    padding: 10px;
+    border: 3px solid black;
+    margin-bottom: 15px;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    text-transform: capitalize;
+}
+
+.post_image,.photo{
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+a{
+    color: black;
+}
+
+.contact_list{
+    list-style: none;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.contact_list li a{
+    color: blue;
 }
